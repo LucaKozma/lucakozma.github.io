@@ -1,3 +1,5 @@
+!["3.jpg"]
+
 ## Bio
 
 My name is Luca Kozma and I am a lecturer in psychology at the [University of the West of Scotland](https://research-portal.uws.ac.uk/en/persons/luca-kozma).

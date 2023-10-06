@@ -1,4 +1,4 @@
-![image](/3.jpeg)
+<img src="/3.jpeg" width="250">
 
 ## Bio
 

@@ -1,4 +1,4 @@
-!["3.jpg"]
+![image](/3.jpeg)
 
 ## Bio
 

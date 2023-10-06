@@ -1,5 +1,19 @@
 # Site settings
 title: "Dr Luca Kozma"
+image: "3.jpeg"
+links:
+  - label: ORCiD
+    url: "https://orcid.org/0000-0002-3297-629X"
+  - label: Email
+    url: "mailto:luca.kozma@uws.ac.uk"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/dr-luca-kozma-phd-079432135/"
+  - label: Twitter
+    url: "https://twitter.com/lucakozma"
+site: bookdown::bookdown_site
+output:
+  postcards::trestles
+knit: rmarkdown::render
 
 # Build settings
 markdown: kramdown

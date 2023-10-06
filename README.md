@@ -4,7 +4,7 @@ My name is Luca Kozma and I am a lecturer in psychology at the [University of th
 
 My research interests include social perception, first impressions,and how gender role endorsement might affect mate choice and gendered behavior.
 
-In my spare time I like to do sports, I enjoy knitting, reading sci-fi and mystery novels, and listening to literary podcasts. I also sing in a choir.
+In my spare time I like to do sports, I enjoy knitting, reading sci-fi and mystery novels, and listening to literary podcasts. I also sing in two choirs, the Scottish Opera Community Choir and [Madrigirls](http://glasgowmadrigirls.weebly.com/).
 
 ## Experience
 

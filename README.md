@@ -4,7 +4,7 @@
 
 My name is Luca Kozma and I am a lecturer in psychology at the [University of the West of Scotland](https://research-portal.uws.ac.uk/en/persons/luca-kozma).
 
-My research interests include social perception, first impressions,and how gender role endorsement might affect mate choice and gendered behavior.
+My research interests include social perception, first impressions, and how gender role endorsement might affect mate choice and gendered behavior.
 
 In my spare time I like to do sports, I enjoy knitting, reading sci-fi and mystery novels, and listening to literary podcasts. I also sing in two choirs, the Scottish Opera Community Choir and [Madrigirls](http://glasgowmadrigirls.weebly.com/).
 
@@ -14,7 +14,7 @@ In my spare time I like to do sports, I enjoy knitting, reading sci-fi and myste
 
 -   Undergraduate level:
     - Investigating Psychology - L1
-    - Introduction to Psychology B - L1
+    - Introduction to Psychology A - L1
     - Introduction to Psychology B - L1
     - Essential Skills for Psychologists - L2
     - Quantitative Research Skills in Psychology - L2

@@ -22,6 +22,7 @@ In my spare time I like to do sports, I enjoy knitting, reading sci-fi and myste
     - Biological Psychology - L3
     - Applying Psychology Methods - L3
     - Psychology Research Dissertation supervision - L4
+    - Work-related Learning project lead - L4
 
 -   Postgraduate level:
     -   Psychology Research Dissertation supervision - MSc Conversion course
@@ -52,6 +53,8 @@ In my spare time I like to do sports, I enjoy knitting, reading sci-fi and myste
 **Bachelor's degree in Psychology** \| Institute of Psychology, University of Pecs, Hungary \| *September 2009 - June 2012*
 
 ## Publications
+
+Mesko, N., Kowal, M., Lang, A., Kocsor, F., Bandi, S. A., Putz, A., Sorokowski, P., Frederick, D. A., Garcia, F. E., Aguilar, L. A., Studzinska, A., Tan, C. S., Gjoneska, B., Milfont, T. L., Topcu Bulut, M., Grigoryev, D., Aavik, T., Boussena, M., Mattiassi, A. D. A., ... **Kozma, L.**,... Han, H. (2023). Exploring Attitudes Toward "Sugar Relationships" Across 87 Countries: A Global Perspective on Exchanges of Resources for Sex and Companionship. *Archives of Sexual Behavior*, *52*(9). <https://doi.org/10.1007/s10508-023-02724-1>
 
 Buchanan, E. M., Lewis, S. C., Paris, B., Forscher, P. S., Pavlacic, J. M., Beshears, J. E., Drexler, S. M., Gourdon-Kanhukamwe, A., Mallik, P. R., Silan, M. A. A., Miller, J. K., IJzerman, H., Moshontz, H., Beaudry, J. L., Suchow, J. W., Chartier, C. R., Coles, N. A., Sharifian, M., Todsen, A. L.,... **Kozma, L.**,... Primbs, M. A. (2023). The Psychological Science Accelerator's COVID-19 rapid-response dataset. *Scientific Data*, *10*(1). <https://doi.org/10.1038/s41597-022-01811-7>
 

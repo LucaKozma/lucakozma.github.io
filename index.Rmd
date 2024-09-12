@@ -1,0 +1,15 @@
+---
+title: "Dr Luca Kozma"
+author: "Luca Kozma"
+image: "3.jpeg"
+---
+
+## Bio
+
+My name is Luca Kozma and I am a lecturer in psychology at the [University of the West of Scotland](https://research-portal.uws.ac.uk/en/persons/luca-kozma).
+
+My research interests include social perception, first impressions, and how gender role endorsement might affect partner choice and gendered behavior.
+
+In my spare time I like to do sports, I enjoy knitting, reading sci-fi and mystery novels, and listening to literary podcasts. I also sing in two choirs.
+
+I am the [UK Reproducibility Network](https://www.ukrn.org/) Local Network Lead for UWS. 

@@ -8,6 +8,8 @@ My research interests include social perception, first impressions, and how gend
 
 In my spare time I like to do sports, I enjoy knitting, reading sci-fi and mystery novels, and listening to literary podcasts. I also sing in two choirs.
 
+I am the [UK Reproducibility Network](https://www.ukrn.org/) Local Network Lead for UWS. 
+
 ## Experience
 
 **Lecturer in Psychology** \| School of Education and Social Sciences, Division of Psychology, University of the West of Scotland, United Kingdom \| *January 2022 - ongoing*

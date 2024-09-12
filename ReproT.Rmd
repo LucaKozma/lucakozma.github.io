@@ -1,12 +1,13 @@
 ---
-title: "ReproT"
+title: "UWS ReproducibiliTea Journal Club"
 author: "Luca Kozma"
-image: "UWSTea2.jpg"
 navbar:
   left:
     - text: "Join here"
       href: https://teams.microsoft.com/l/team/19%3AVgmCyqnnetwBheHqzKxSGVjojm8Wf2At8_X9DBkk2UM1%40thread.tacv2/conversations?groupId=4fee47e7-661e-4b52-900c-11325d0ea3ac&tenantId=f89944b7-4a4e-4ea7-9156-3299f3411647
 ---
+
+![](UWSTea2.jpg){width=250}
 
 # Welcome to the UWS ReproducibiliTea home page!
 

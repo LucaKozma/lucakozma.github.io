@@ -1,7 +1,6 @@
 ---
 title: "Dr Luca Kozma"
 author: "Luca Kozma"
-image: "3.jpeg"
 navbar:
   left:
     - text: "ORCiD"
@@ -11,6 +10,9 @@ navbar:
     - text: "LinkedIn"
       href: https://www.linkedin.com/in/dr-luca-kozma-phd-079432135/
 ---
+
+![](3.jpeg){width=250}
+
 ## Bio
 
 My name is Luca Kozma and I am a lecturer in psychology at the [University of the West of Scotland](https://research-portal.uws.ac.uk/en/persons/luca-kozma).

@@ -1,7 +1,22 @@
 ---
-title: "Dr Luca Kozma"
-author: "Luca Kozma"
-image: "3.jpeg"
+name: "Dr Luca Kozma"  
+author: "Luca Kozma"  
+output_dir: "docs"  
+output:  
+  html_document:
+  toc: true
+  number_sections: true
+  toc_float: true  
+  prettydoc::html_pretty:
+    theme: cayman
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: CV.html
+    - text: "UWS ReproducibiliTea"
+      href: ReproT.html
 ---
 
 ## Bio

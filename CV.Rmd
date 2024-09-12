@@ -12,7 +12,7 @@ links:
 site: bookdown::bookdown_site
 output:
   postcards::trestles
-knit: rmarkdown::render_site
+knit: rmarkdown::render
 ---
 
 ## Bio

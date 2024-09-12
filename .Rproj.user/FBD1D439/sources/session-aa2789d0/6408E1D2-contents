@@ -1,0 +1,14 @@
+title: "Dr Luca Kozma"  
+author: "Luca Kozma"  
+output_dir: "docs"  
+output:
+  html_document:
+    theme: yeti
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: CV.html
+    - text: "UWS ReproducibiliTea"
+      href: ReproT.html

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Luca Kozma" />
+
+
+<title>Dr Luca Kozma</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="CV.html">About</a>
+</li>
+<li>
+  <a href="ReproT.html">UWS ReproducibiliTea</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Dr Luca Kozma</h1>
+<h4 class="author">Luca Kozma</h4>
+
+</div>
+
+
+<div id="bio" class="section level2">
+<h2>Bio</h2>
+<p>My name is Luca Kozma and I am a lecturer in psychology at the <a
+href="https://research-portal.uws.ac.uk/en/persons/luca-kozma">University
+of the West of Scotland</a>.</p>
+<p>My research interests include social perception, first impressions,
+and how gender role endorsement might affect partner choice and gendered
+behavior.</p>
+<p>In my spare time I like to do sports, I enjoy knitting, reading
+sci-fi and mystery novels, and listening to literary podcasts. I also
+sing in two choirs.</p>
+<p>I am the <a href="https://www.ukrn.org/">UK Reproducibility
+Network</a> Local Network Lead for UWS.</p>
+</div>
+<div id="experience" class="section level2">
+<h2>Experience</h2>
+<p><strong>Lecturer in Psychology</strong> | School of Education and
+Social Sciences, Division of Psychology, University of the West of
+Scotland, United Kingdom | <em>January 2022 - ongoing</em></p>
+<ul>
+<li>Undergraduate level:
+<ul>
+<li>Investigating Psychology - L1</li>
+<li>Introduction to Psychology A - L1</li>
+<li>Introduction to Psychology B - L1</li>
+<li>Essential Skills for Psychologists - L2</li>
+<li>Quantitative Research Skills in Psychology - L2</li>
+<li>Cognitive Psychology - L3</li>
+<li>Biological Psychology - L3</li>
+<li>Applying Psychology Methods - L3</li>
+<li>Psychology Research Dissertation supervision - L4</li>
+<li>Work-related Learning project lead - L4</li>
+</ul></li>
+<li>Postgraduate level:
+<ul>
+<li>Psychology Research Dissertation supervision - MSc Conversion
+course</li>
+</ul></li>
+</ul>
+<p><strong>Lecturer in Psychology</strong> | Institute of Psychology,
+University of Pecs, Hungary | <em>September 2018 - December
+2021</em></p>
+<ul>
+<li>Undergraduate level:
+<ul>
+<li>Cognitive Psychology seminar - Level 1</li>
+<li>Research Methods seminar - Level 1</li>
+<li>Affective Psychology seminar - Level 2</li>
+<li>Psychometrics - Level 2</li>
+</ul></li>
+<li>Postgraduate level:
+<ul>
+<li>Scientific Publication and Presentation seminar</li>
+</ul></li>
+</ul>
+<p><strong>Researcher</strong> | Institute of Psychology, University of
+Pecs, Hungary | <em>October 2020 - June 2021</em></p>
+<p><strong>Research Assistant</strong> | Institute of Psychology,
+University of Pecs, Hungary | <em>October 2018 - September 2020</em></p>
+<p><strong>Visiting Researcher</strong> | University of Glasgow,
+Institute of Neuroscience &amp; Psychology, United Kingdom |
+<em>September 2017 - August 2018</em></p>
+</div>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p><strong>PhD in Psychology</strong> | Evolutionary and Cognitive
+Psychology Doctoral School, University of Pecs, Hungary | <em>September
+2015 - June 2020</em></p>
+<p><strong>Master’s degree in Psychology</strong> | Institute of
+Psychology, University of Pecs, Hungary | <em>September 2012 - June
+2015</em></p>
+<p><strong>Bachelor’s degree in Psychology</strong> | Institute of
+Psychology, University of Pecs, Hungary | <em>September 2009 - June
+2012</em></p>
+</div>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<p>Mesko, N., Kowal, M., Lang, A., Kocsor, F., Bandi, S. A., Putz, A.,
+Sorokowski, P., Frederick, D. A., Garcia, F. E., Aguilar, L. A.,
+Studzinska, A., Tan, C. S., Gjoneska, B., Milfont, T. L., Topcu Bulut,
+M., Grigoryev, D., Aavik, T., Boussena, M., Mattiassi, A. D. A., …
+<strong>Kozma, L.</strong>,… Han, H. (2023). Exploring Attitudes Toward
+“Sugar Relationships” Across 87 Countries: A Global Perspective on
+Exchanges of Resources for Sex and Companionship. <em>Archives of Sexual
+Behavior</em>, <em>52</em>(9). <a
+href="https://doi.org/10.1007/s10508-023-02724-1"
+class="uri">https://doi.org/10.1007/s10508-023-02724-1</a></p>
+<p>Buchanan, E. M., Lewis, S. C., Paris, B., Forscher, P. S., Pavlacic,
+J. M., Beshears, J. E., Drexler, S. M., Gourdon-Kanhukamwe, A., Mallik,
+P. R., Silan, M. A. A., Miller, J. K., IJzerman, H., Moshontz, H.,
+Beaudry, J. L., Suchow, J. W., Chartier, C. R., Coles, N. A., Sharifian,
+M., Todsen, A. L.,… <strong>Kozma, L.</strong>,… Primbs, M. A. (2023).
+The Psychological Science Accelerator’s COVID-19 rapid-response dataset.
+<em>Scientific Data</em>, <em>10</em>(1). <a
+href="https://doi.org/10.1038/s41597-022-01811-7"
+class="uri">https://doi.org/10.1038/s41597-022-01811-7</a></p>
+<p>Kocsor, F., Ferencz, T., Kisander, Zs., Tizedes, G., Schaadt, B.,
+Kertesz, R., <strong>Kozma, L.</strong>, Vincze, O., Lang, A. (2022).
+The mental representation of occupational stereotypes is driven as much
+by their affective as by their semantic content. <em>BMC
+Psychology</em>, <em>10</em>(1). <a
+href="https://doi.org/10.1186/s40359-022-00928-z"
+class="uri">https://doi.org/10.1186/s40359-022-00928-z</a></p>
+<p>Dorison, C., Lerner, J. S., Heller, B. H., Rothman, A., Kawachi, I.
+I., Wang, K., Rees, V. W., Gill, B. P., Gibbs., N., Ebersole, C. R.,
+Vally, Z., Tajchman, Z., Zsido, A. N., Zrimsek, M., Chen, Z., Ziano, I.,
+Gialitaki, Z., Ceary, C. D., Jang, Y., Lin, Y., … <strong>Kozma,
+L.</strong>, … Coles, N. A. (2022). In COVID-19 health messaging, loss
+framing increases anxiety with little-to-no concomitant benefits:
+Experimental evidence from 84 countries. <em>Affective Science</em>,
+<em>3</em>(3), 577-602. <a
+href="https://doi.org/10.1007/s42761-022-00128-3"
+class="uri">https://doi.org/10.1007/s42761-022-00128-3</a></p>
+<p>Kowal, M., Sorokowski, P., Pisanski, K., Valentova, J. V., Varella,
+M. A. C., Frederick, D. A., Al-Shawaf, L., Garcia, F. E., Giammusso, I.,
+Gjoneska, B., <strong>Kozma, L.</strong>, Otterbring, T.,
+Papadatou-Pastou, M., Pfuhl, G., Stockli, S., Studzinska, A.,
+Toplu-Demirtas, E., Touloumakos, A. K., Bakos, B. E., …
+Zumarraga-Espinosa, M. (2022). Predictors of enhancing human physical
+attractiveness: Data from 93 countries. <em>Evolution and Human
+Behavior</em>, <em>43</em>(6), 455-474. <a
+href="https://doi.org/10.1016/j.evolhumbehav.2022.08.003"
+class="uri">https://doi.org/10.1016/j.evolhumbehav.2022.08.003</a></p>
+<p>Ferencz, T., Lang, A., Kocsor, F., <strong>Kozma, L.</strong>, Babos,
+A., Gyuris, P. (2022). Sibling relationship quality and parental rearing
+style influence the development of Dark Triad traits. <em>Current
+Psychology</em>. <a href="https://doi.org/10.1007/s12144-022-03506-z"
+class="uri">https://doi.org/10.1007/s12144-022-03506-z</a></p>
+<p>Legate, N., Ngyuen, T.-vy, Weinstein, N., Moller, A., Legault, L.,
+Vally, Z., Tajchman, Z., Zsido, A. N., Zrimsek, M., Chen, Z., Ziano, I.,
+Gialitaki, Z., Ceary, C. D., Jang, Y., Lin, Y., Kunisato, Y., Yamada,
+Y., Xiao, Q., Jiang, X., … <strong>Kozma, L.</strong>, … Primbs, M. A.
+(2022). A global experiment on motivating social distancing during the
+COVID-19 pandemic. <em>Proceedings of the National Academy of
+Sciences</em>, <em>119</em>(22). <a
+href="https://doi.org/10.1073/pnas.2111091119"
+class="uri">https://doi.org/10.1073/pnas.2111091119</a></p>
+<p>Wang, K., Goldenberg, A., Dorison, C. A., Miller, J. K., Uusberg, A.,
+Lerner, J. S., Gross, J. J., Agesin, B. B., Bernardo, M., Campos, O.,
+Eudave, L., Grzech, K., Ozery, D. H., Jackson, E. A., Garcia, E. O.,
+Drexler, S. M., Jurkovic, A. P., Rana, K., Wilson, J. P., …
+<strong>Kozma, L.</strong>, … Moshontz, H. (2021). A multi-country test
+of Brief reappraisal interventions on emotions during the COVID-19
+pandemic. <em>Nature Human Behaviour</em>, <em>5</em>(8), 1089-1110. <a
+href="https://doi.org/10.1038/s41562-021-01173-x"
+class="uri">https://doi.org/10.1038/s41562-021-01173-x</a></p>
+<p>Jones, B. C., DeBruine, L. M., Flake, J. K., Liuzza, M. T., Antfolk,
+J., Arinze, N. C., Ndukaihe, I. L., Bloxsom, N. G., Lewis, S. C.,
+Foroni, F., Willis, M. L., Cubillas, C. P., Vadillo, M. A., Turiegano,
+E., Gilead, M., Simchon, A., Saribay, S. A., Owsley, N. C., Jang, C., …
+<strong>Kozma, L.</strong>, … Coles, N. A. (2021). To which world
+regions does the valence-dominance model of social perception apply?
+<em>Nature Human Behaviour</em>, <em>5</em>(1), 159-169. <a
+href="https://doi.org/10.1038/s41562-020-01007-2"
+class="uri">https://doi.org/10.1038/s41562-020-01007-2</a></p>
+<p>Gyuris, P., <strong>Kozma, L.</strong>, Kisander, Z., Lang, A.,
+Ferencz, T., &amp; Kocsor, F. (2020). Sibling Relations in Patchwork
+Families: Co-residence Is More Influential Than Genetic Relatedness.
+<em>Frontiers in Psychology</em>, <em>11</em>, 993. <a
+href="https://doi.org/10.3389/fpsyg.2020.00993"
+class="uri">https://doi.org/10.3389/fpsyg.2020.00993</a></p>
+<p>Kocsor, F., <strong>Kozma, L.</strong>, Neria, A. L., Jones, D. N.,
+&amp; Bereczkei, T. (2019). Arbitrary signals of trustworthiness -
+social judgments may rely on facial expressions even with experimentally
+manipulated valence. <em>Heliyon</em>, <em>5</em>(5), e01736. <a
+href="https://doi.org/10.1016/j.heliyon.2019.e01736"
+class="uri">https://doi.org/10.1016/j.heliyon.2019.e01736</a></p>
+<p>Shiramizu, V. K. M., <strong>Kozma, L.</strong>, DeBruine, L. M.,
+&amp; Jones, B. C. (2019). Are dark triad cues really visible in faces?
+<em>Personality and Individual Differences</em>, <em>139</em>, 214-216.
+<a href="https://doi.org/10.1016/j.paid.2018.11.011"
+class="uri">https://doi.org/10.1016/j.paid.2018.11.011</a></p>
+<p><strong>Kozma, L.</strong>, &amp; Kocsor, F. (2017). Multiscale
+Analysis of Masculinity - an Exploratory Study. <em>Human Ethology
+Bulletin</em>, <em>322</em>, 5-13. <a
+href="https://doi.org/10.22330/heb/322/005-013"
+class="uri">https://doi.org/10.22330/heb/322/005-013</a></p>
+<p><strong>Kozma, L.</strong>, &amp; Kocsor, F. (2016). Salter, Grammer,
+and Rokowski (2005). In T. K. Shackelford, &amp; V. A.
+Weekes-Shackelford (Eds.), <em>Encyclopedia of Evolutionary
+Psychological Science</em> (pp. 1-3). Springer International Publishing.
+<a href="https://doi.org/10.1007/978-3-319-16999-6_1461-1"
+class="uri">https://doi.org/10.1007/978-3-319-16999-6_1461-1</a></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

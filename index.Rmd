@@ -3,6 +3,7 @@ title: "Dr Luca Kozma"
 output:
   html_document:
     toc: false
+    toc_float: false
     theme: yeti
 ---
 <br>

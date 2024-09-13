@@ -3,7 +3,7 @@
     "path": "~/GitHub/lucakozma.github.io/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "3365012005",
+    "hash": "1074696549",
     "contents": "",
     "dirty": false,
     "created": 1726157840009.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "4,14",
+        "cursorPosition": "5,13",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1726228444,
+    "lastKnownWriteTime": 1726229769,
     "encoding": "ISO-8859-2",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1726228444728,
+    "last_content_update": 1726229769664,
     "read_only": false,
     "read_only_alternatives": []
 }

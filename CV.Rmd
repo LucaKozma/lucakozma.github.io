@@ -1,56 +1,63 @@
 ---
 title: "Dr Luca Kozma"
-author: "Luca Kozma"
-navbar:
-  left:
-    - text: "ORCiD"
-      href: https://orcid.org/0000-0002-3297-629X
-    - text: "Email"
-      href: mailto:luca.kozma@uws.ac.uk
-    - text: "LinkedIn"
-      href: https://www.linkedin.com/in/dr-luca-kozma-phd-079432135/
+output_dir: "docs"  
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
 ---
 
-![](3.jpeg){width=250}
+<img style="float: right; padding: 15px;" src="1.jpg" width = "350">
 
-## Bio
-
-My name is Luca Kozma and I am a lecturer in psychology at the [University of the West of Scotland](https://research-portal.uws.ac.uk/en/persons/luca-kozma).
-
-My research interests include social perception, first impressions, and how gender role endorsement might affect partner choice and gendered behavior.
-
-In my spare time I like to do sports, I enjoy knitting, reading sci-fi and mystery novels, and listening to literary podcasts. I also sing in two choirs.
-
-I am the [UK Reproducibility Network](https://www.ukrn.org/) Local Network Lead for UWS. 
+<br>
 
 ## Experience
 
-**Lecturer in Psychology** \| School of Education and Social Sciences, Division of Psychology, University of the West of Scotland, United Kingdom \| *January 2022 - ongoing*
+**Lecturer in Psychology** 
+
+School of Education and Social Sciences, Division of Psychology, University of the West of Scotland, United Kingdom \| *January 2022 - ongoing*
 
 -   Undergraduate level:
-    - Investigating Psychology - L1
-    - Introduction to Psychology A - L1
-    - Introduction to Psychology B - L1
-    - Essential Skills for Psychologists - L2
-    - Quantitative Research Skills in Psychology - L2
-    - Cognitive Psychology - L3
-    - Biological Psychology - L3
-    - Applying Psychology Methods - L3
-    - Psychology Research Dissertation supervision - L4
-    - Work-related Learning project lead - L4
+
+    + Investigating Psychology - L1
+    
+    + Introduction to Psychology A - L1
+    
+    + Introduction to Psychology B - L1
+    
+    + Essential Skills for Psychologists - L2
+    
+    + Quantitative Research Skills in Psychology - L2
+    
+    + Cognitive Psychology - L3
+    
+    + Biological Psychology - L3
+    
+    + Applying Psychology Methods - L3
+    
+    + Psychology Research Dissertation supervision - L4
+    
+    + Work-related Learning project lead - L4
 
 -   Postgraduate level:
+
     -   Psychology Research Dissertation supervision - MSc Conversion course
 
 **Lecturer in Psychology** \| Institute of Psychology, University of Pecs, Hungary \| *September 2018 - December 2021*
 
 -   Undergraduate level:
+
     -   Cognitive Psychology seminar - Level 1
+    
     -   Research Methods seminar - Level 1
+    
     -   Affective Psychology seminar - Level 2
+    
     -   Psychometrics - Level 2
 
 -   Postgraduate level:
+
     -   Scientific Publication and Presentation seminar
 
 **Researcher** \| Institute of Psychology, University of Pecs, Hungary \| *October 2020 - June 2021*
@@ -59,7 +66,10 @@ I am the [UK Reproducibility Network](https://www.ukrn.org/) Local Network Lead 
 
 **Visiting Researcher** \| University of Glasgow, Institute of Neuroscience & Psychology, United Kingdom \| *September 2017 - August 2018*
 
+<br>
+
 ## Education
+
 
 **PhD in Psychology** \| Evolutionary and Cognitive Psychology Doctoral School, University of Pecs, Hungary \| *September 2015 - June 2020*
 
@@ -67,7 +77,10 @@ I am the [UK Reproducibility Network](https://www.ukrn.org/) Local Network Lead 
 
 **Bachelor's degree in Psychology** \| Institute of Psychology, University of Pecs, Hungary \| *September 2009 - June 2012*
 
+<br>
+
 ## Publications
+
 
 Mesko, N., Kowal, M., Lang, A., Kocsor, F., Bandi, S. A., Putz, A., Sorokowski, P., Frederick, D. A., Garcia, F. E., Aguilar, L. A., Studzinska, A., Tan, C. S., Gjoneska, B., Milfont, T. L., Topcu Bulut, M., Grigoryev, D., Aavik, T., Boussena, M., Mattiassi, A. D. A., ... **Kozma, L.**,... Han, H. (2023). Exploring Attitudes Toward "Sugar Relationships" Across 87 Countries: A Global Perspective on Exchanges of Resources for Sex and Companionship. *Archives of Sexual Behavior*, *52*(9). <https://doi.org/10.1007/s10508-023-02724-1>
 

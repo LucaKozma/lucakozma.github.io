@@ -8,6 +8,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+      icon: fa-house
     - text: "About"
       href: CV.html
     - text: "UWS ReproducibiliTea"

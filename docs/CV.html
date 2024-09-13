@@ -9,7 +9,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Luca Kozma" />
 
 
 <title>Dr Luca Kozma</title>
@@ -30,9 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -220,6 +224,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -227,6 +294,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -244,7 +321,11 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="fa fa-house"></span>
+     
+    Home
+  </a>
 </li>
 <li>
   <a href="CV.html">About</a>
@@ -268,46 +349,33 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Dr Luca Kozma</h1>
-<h4 class="author">Luca Kozma</h4>
 
 </div>
 
 
-<p><img src="3.jpeg" width="250" /></p>
-<div id="bio" class="section level2">
-<h2>Bio</h2>
-<p>My name is Luca Kozma and I am a lecturer in psychology at the <a
-href="https://research-portal.uws.ac.uk/en/persons/luca-kozma">University
-of the West of Scotland</a>.</p>
-<p>My research interests include social perception, first impressions,
-and how gender role endorsement might affect partner choice and gendered
-behavior.</p>
-<p>In my spare time I like to do sports, I enjoy knitting, reading
-sci-fi and mystery novels, and listening to literary podcasts. I also
-sing in two choirs.</p>
-<p>I am the <a href="https://www.ukrn.org/">UK Reproducibility
-Network</a> Local Network Lead for UWS.</p>
-</div>
+<p><img style="float: right; padding: 15px;" src="1.jpg" width = "350"></p>
+<p><br></p>
 <div id="experience" class="section level2">
 <h2>Experience</h2>
-<p><strong>Lecturer in Psychology</strong> | School of Education and
-Social Sciences, Division of Psychology, University of the West of
-Scotland, United Kingdom | <em>January 2022 - ongoing</em></p>
+<p><strong>Lecturer in Psychology</strong></p>
+<p>School of Education and Social Sciences, Division of Psychology,
+University of the West of Scotland, United Kingdom | <em>January 2022 -
+ongoing</em></p>
 <ul>
-<li>Undergraduate level:
+<li><p>Undergraduate level:</p>
 <ul>
-<li>Investigating Psychology - L1</li>
-<li>Introduction to Psychology A - L1</li>
-<li>Introduction to Psychology B - L1</li>
-<li>Essential Skills for Psychologists - L2</li>
-<li>Quantitative Research Skills in Psychology - L2</li>
-<li>Cognitive Psychology - L3</li>
-<li>Biological Psychology - L3</li>
-<li>Applying Psychology Methods - L3</li>
-<li>Psychology Research Dissertation supervision - L4</li>
-<li>Work-related Learning project lead - L4</li>
+<li><p>Investigating Psychology - L1</p></li>
+<li><p>Introduction to Psychology A - L1</p></li>
+<li><p>Introduction to Psychology B - L1</p></li>
+<li><p>Essential Skills for Psychologists - L2</p></li>
+<li><p>Quantitative Research Skills in Psychology - L2</p></li>
+<li><p>Cognitive Psychology - L3</p></li>
+<li><p>Biological Psychology - L3</p></li>
+<li><p>Applying Psychology Methods - L3</p></li>
+<li><p>Psychology Research Dissertation supervision - L4</p></li>
+<li><p>Work-related Learning project lead - L4</p></li>
 </ul></li>
-<li>Postgraduate level:
+<li><p>Postgraduate level:</p>
 <ul>
 <li>Psychology Research Dissertation supervision - MSc Conversion
 course</li>
@@ -317,14 +385,14 @@ course</li>
 University of Pecs, Hungary | <em>September 2018 - December
 2021</em></p>
 <ul>
-<li>Undergraduate level:
+<li><p>Undergraduate level:</p>
 <ul>
-<li>Cognitive Psychology seminar - Level 1</li>
-<li>Research Methods seminar - Level 1</li>
-<li>Affective Psychology seminar - Level 2</li>
-<li>Psychometrics - Level 2</li>
+<li><p>Cognitive Psychology seminar - Level 1</p></li>
+<li><p>Research Methods seminar - Level 1</p></li>
+<li><p>Affective Psychology seminar - Level 2</p></li>
+<li><p>Psychometrics - Level 2</p></li>
 </ul></li>
-<li>Postgraduate level:
+<li><p>Postgraduate level:</p>
 <ul>
 <li>Scientific Publication and Presentation seminar</li>
 </ul></li>
@@ -336,6 +404,7 @@ University of Pecs, Hungary | <em>October 2018 - September 2020</em></p>
 <p><strong>Visiting Researcher</strong> | University of Glasgow,
 Institute of Neuroscience &amp; Psychology, United Kingdom |
 <em>September 2017 - August 2018</em></p>
+<p><br></p>
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
@@ -348,6 +417,7 @@ Psychology, University of Pecs, Hungary | <em>September 2012 - June
 <p><strong>Bachelor’s degree in Psychology</strong> | Institute of
 Psychology, University of Pecs, Hungary | <em>September 2009 - June
 2012</em></p>
+<p><br></p>
 </div>
 <div id="publications" class="section level2">
 <h2>Publications</h2>
@@ -461,6 +531,8 @@ class="uri">https://doi.org/10.1007/978-3-319-16999-6_1461-1</a></p>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -493,6 +565,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

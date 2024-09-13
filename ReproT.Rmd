@@ -1,27 +1,32 @@
 ---
-title: "UWS ReproducibiliTea Journal Club"
-author: "Luca Kozma"
+title: "Welcome to the UWS ReproducibiliTea home page!"
 navbar:
   left:
     - text: "Join here"
-      href: https://teams.microsoft.com/l/team/19%3AVgmCyqnnetwBheHqzKxSGVjojm8Wf2At8_X9DBkk2UM1%40thread.tacv2/conversations?groupId=4fee47e7-661e-4b52-900c-11325d0ea3ac&tenantId=f89944b7-4a4e-4ea7-9156-3299f3411647
+      href: 
 ---
 
-![](UWSTea2.jpg){width=250}
+<img style="float: right; padding: 15px;" src="UWSTea2.jpg" width = "250">
 
-# Welcome to the UWS ReproducibiliTea home page!
 
-You will be able to find information about our meetings.
 
-**Location**: D137/139, Paisley Campus
+
+**Location**: D137/139, Paisley Campus or online. Click here to join: [<img src="teams.svg" alt="Join us here"  height="32"/>](https://teams.microsoft.com/l/team/19%3AVgmCyqnnetwBheHqzKxSGVjojm8Wf2At8_X9DBkk2UM1%40thread.tacv2/conversations?groupId=4fee47e7-661e-4b52-900c-11325d0ea3ac&tenantId=f89944b7-4a4e-4ea7-9156-3299f3411647)
 
 **Date and time**:
 
 1. 3-4pm, Wednesday, October 9, 2024
+
 2. 3-4pm, Wednesday, November 13th
+
 3. 3-4pm, Wednesday, January 8th
+
 4. 3-4pm, Wednesday, February 12th
+
 5. 3-4pm, Wednesday, March 12th
+
 6. 3-4pm, Wednesday, April 16th
+
 7. 3-4pm, Wednesday, May 14th
+
 8. 3-4pm, Wednesday, Jun 11th

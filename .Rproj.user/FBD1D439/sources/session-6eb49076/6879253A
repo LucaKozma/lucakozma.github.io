@@ -3,7 +3,7 @@
     "path": "~/GitHub/lucakozma.github.io/CV.Rmd",
     "project_path": "CV.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3824042656",
     "contents": "",
     "dirty": false,
     "created": 1726157847016.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "14,0",
+        "cursorPosition": "10,24",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1726159770,
+    "lastKnownWriteTime": 1726227828,
     "encoding": "ISO-8859-2",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1726159770101,
+    "last_content_update": 1726227828836,
     "read_only": false,
     "read_only_alternatives": []
 }

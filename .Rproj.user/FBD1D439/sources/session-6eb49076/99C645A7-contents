@@ -1,8 +1,8 @@
 ---
 title: "Dr Luca Kozma"
-output_dir: "docs"  
 output:
   html_document:
+    toc: false
     theme: yeti
 ---
 <br>

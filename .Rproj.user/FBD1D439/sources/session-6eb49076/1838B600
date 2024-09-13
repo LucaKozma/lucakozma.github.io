@@ -3,7 +3,7 @@
     "path": "~/GitHub/lucakozma.github.io/ReproT.Rmd",
     "project_path": "ReproT.Rmd",
     "type": "r_markdown",
-    "hash": "1765579431",
+    "hash": "2919397926",
     "contents": "",
     "dirty": false,
     "created": 1726157850989.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "13,123",
-        "scrollLine": "0"
+        "cursorPosition": "52,15",
+        "scrollLine": "48"
     },
     "folds": "",
-    "lastKnownWriteTime": 1726227393,
+    "lastKnownWriteTime": 1726229544,
     "encoding": "ISO-8859-2",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1726227393559,
+    "last_content_update": 1726229544545,
     "read_only": false,
     "read_only_alternatives": []
 }

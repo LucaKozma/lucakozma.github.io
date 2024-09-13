@@ -3,7 +3,7 @@
     "path": "~/GitHub/lucakozma.github.io/_site.yml",
     "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "3184590195",
     "contents": "",
     "dirty": false,
     "created": 1726158359939.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "4,16",
+        "cursorPosition": "14,23",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1726225746,
+    "lastKnownWriteTime": 1726232343,
     "encoding": "ISO-8859-2",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1726225746736,
+    "last_content_update": 1726232343520,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -6,11 +6,13 @@ output:
     toc_float: false
     theme: yeti
 ---
-<br>
-<img style="float: right; padding: 15px;" src="2.jpg" width="250">
+
+<img style="float: right; margin: 0px 0px 15px 15px;" src="2.jpg" width="250">
 
 # Biography
+
 <br>
+
 My name is Luca Kozma [*'lutsa*] and I am a lecturer in the Division of Psychology and Social Work at the [University of the West of Scotland](https://research-portal.uws.ac.uk/en/persons/luca-kozma).
 
 My research is focused on evolutionary human behaviour, more specifically on social perception and first impressions.
@@ -21,4 +23,4 @@ In my spare time I like to do sports, read sci-fi and mystery novels, and listen
 
 <br>
 
-<center>[<img src="mail.svg" height="32"/>](mailto:luca.kozma@uws.ac.uk)    [<img src="orcid.svg"  height="32"/>](https://orcid.org/0000-0002-3297-629X)   [<img src="linkedin.svg"  height="32"/>](https://www.linkedin.com/in/dr-luca-kozma-phd-079432135/)   
+<center>[<img src="mail.svg" height="32"/>](mailto:luca.kozma@uws.ac.uk)    [<img src="orcid.svg"  height="32"/>](https://orcid.org/0000-0002-3297-629X)   [<img src="linkedin.svg"  height="32"/>](https://www.linkedin.com/in/dr-luca-kozma-phd-079432135/)

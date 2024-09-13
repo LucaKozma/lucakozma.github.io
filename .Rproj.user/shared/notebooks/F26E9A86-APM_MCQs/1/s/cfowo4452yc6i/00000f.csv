@@ -1,0 +1,5 @@
+"0","opts_1 <- sample(c("
+"0","   ""Option A"","
+"0","   answer = ""Option B"","
+"0","   ""Option C"""
+"0","))"

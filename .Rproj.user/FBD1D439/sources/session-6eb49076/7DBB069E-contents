@@ -1,0 +1,54 @@
+---
+title: "Practice Quiz - Week 2"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+## Multiple Choice Questions
+
+- Question 1: `r mcq(c("Answer 1", "Answer 2", answer = "Answer 3", "Answer 4"))`
+
+## True or False Questions
+
+- True or False? Statement. `r torf(TRUE)`
+
+## Longer MCQs
+
+**Question 1**
+
+```{r echo=FALSE}
+opts_1 <- sample(c(
+   "Option A",
+   answer = "Option B",
+   "Option C"
+))
+```
+
+`r longmcq(opts_1)`
+
+## Checked sections
+
+Create sections with the class `webex-check` to add a button that hides feedback until it is pressed. Add the class `webex-box` to draw a box around the section (or use your own styles).
+
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts_1 <- sample(c(
+   "Option A",
+   answer = "Option B",
+   "Option C"
+))
+
+cat("Question 1", longmcq(opts_1))
+```
+
+:::

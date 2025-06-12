@@ -274,33 +274,21 @@ $(document).ready(function () {
 </div>
 
 
-<div
-style="text-align: center; display: flex; justify-content: center;">
-<p><img src="2.jpg" width="250" style="max-width: 100%; height: auto; margin: 0px 0px 15px 15px; float: right;"></p>
-</div>
 <style>
-  /* For screens larger than 600px (desktop), float the image to the right */
-  @media only screen and (min-width: 600px) {
-    img {
-      float: right;
-      margin-left: 15px; /* Optional: Adjust to get some space from the text */
-      margin-right: 0;
-    }
+  .responsive-img {
+    float: right;
+    margin: 0px 0px 15px 15px;
   }
 
-  /* For screens smaller than 600px (mobile), center the image */
-  @media only screen and (max-width: 599px) {
-    div {
-      text-align: center;
-    }
-    img {
+  @media (max-width: 768px) {
+    .responsive-img {
       float: none;
-      margin-left: 0;
-      margin-right: 0;
+      display: block;
+      margin: 0 auto 15px auto;
     }
   }
 </style>
-<p><br></p>
+<p><img src="2.jpg" width="250" class="responsive-img"></p>
 <div id="biography" class="section level1">
 <h1>Biography</h1>
 <p><br><left></p>

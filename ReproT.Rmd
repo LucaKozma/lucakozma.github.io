@@ -33,4 +33,4 @@ During these **hour-long meetings**, we will dive into the latest research on im
 
 **All are welcome, no prior experience required. Just drop by whenever you can.**
 
-[<img src="UWSTea2425.png" alt="2024/2025 reading list"  height="150"/>](docs/20242025.html)    [<img src="UWSTea2526.png" alt="2025/2026 reading list"  height="150"/>](docs/20252026.html)
+[<img src="UWSTea2425.png" alt="2024/2025 reading list"  height="150"/>](20242025.html)    [<img src="UWSTea2526.png" alt="2025/2026 reading list"  height="150"/>](20252026.html)

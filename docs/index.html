@@ -13,7 +13,7 @@
 
 <title>Dr Luca Kozma</title>
 
-<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -274,10 +274,36 @@ $(document).ready(function () {
 </div>
 
 
-<p><img style="float: right; margin: 0px 0px 15px 15px;" src="2.jpg" width="250"></p>
+<div
+style="text-align: center; display: flex; justify-content: center;">
+<p><img src="2.jpg" width="250" style="max-width: 100%; height: auto; margin: 0px 0px 15px 15px; float: right;"></p>
+</div>
+<style>
+  /* For screens larger than 600px (desktop), float the image to the right */
+  @media only screen and (min-width: 600px) {
+    img {
+      float: right;
+      margin-left: 15px; /* Optional: Adjust to get some space from the text */
+      margin-right: 0;
+    }
+  }
+
+  /* For screens smaller than 600px (mobile), center the image */
+  @media only screen and (max-width: 599px) {
+    div {
+      text-align: center;
+    }
+    img {
+      float: none;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+</style>
+<p><br></p>
 <div id="biography" class="section level1">
 <h1>Biography</h1>
-<p><br></p>
+<p><br><left></p>
 <p>My name is Luca Kozma [<em>’lutsa</em>] and I am a lecturer in the
 Division of Psychology and Social Work at the <a
 href="https://research-portal.uws.ac.uk/en/persons/luca-kozma">University
@@ -291,7 +317,7 @@ for the <a href="https://www.ukrn.org/">UK Reproducibility
 Network</a></p>
 <p>In my spare time I like to do sports, read sci-fi and mystery novels,
 and listen to literary podcasts. I am an avid knitter, and I sing in a
-choir.</p>
+choir.</left></p>
 <p><br></p>
 <center>
 <p><a

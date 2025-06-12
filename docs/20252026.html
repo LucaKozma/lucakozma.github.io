@@ -11,7 +11,7 @@
 
 
 
-<title>Welcome to the UWS ReproducibiliTea home page!</title>
+<title>2025/2026</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -221,6 +224,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -228,6 +294,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -269,8 +345,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome to the UWS ReproducibiliTea home
-page!</h1>
+<h1 class="title toc-ignore">2025/2026</h1>
 
 </div>
 
@@ -278,7 +353,7 @@ page!</h1>
 <style>
   .responsive-img {
     float: right;
-    margin: 0px 0px 15px 15px;
+    margin: 15px 15px 15px 15px;
   }
 
   @media (max-width: 768px) {
@@ -291,29 +366,23 @@ page!</h1>
 </style>
 <p><img src="UWSTea2.jpg" width="250" class="responsive-img"></p>
 <p><br></p>
-<p>The main goal of our journal club is to gather students and
-researchers within the School of Education and Social Sciences, or more
-broadly, within the University of the West of Scotland, to <strong>form
-a community of people interested in issues around Open Science and
-reproducibility</strong>. We will do so by organising regular meetings
-throughout the academic year, on the <strong>third Wednesday of (almost)
-every month</strong>.</p>
-<p>During these <strong>hour-long meetings</strong>, we will dive into
-the latest research on improving transparency, replicability, and
-reproducibility in science by <strong>reading and discussing a specific
-paper</strong>. This <strong>informal, come-when-you-can
-gathering</strong> is perfect for anyone curious about open science
-practices, and it provides a great chance to explore key topics, share
-insights, and foster a curious and open community.</p>
-<p><strong>All are welcome, no prior experience required. Just drop by
-whenever you can.</strong></p>
-<p><a
-href="docs/20242025.html"><img src="UWSTea2425.png" alt="2024/2025 reading list"  height="150"/></a>
-<a
-href="docs/20252026.html"><img src="UWSTea2526.png" alt="2025/2026 reading list"  height="150"/></a></p>
+<div id="location" class="section level1">
+<h1>Location</h1>
+<p>TBC</p>
+</div>
+<div id="date-and-time" class="section level1">
+<h1>Date and time</h1>
+<p>TBC</p>
+</div>
+<div id="reading-list" class="section level1">
+<h1>Reading list</h1>
+<p>TBC</p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -346,6 +415,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

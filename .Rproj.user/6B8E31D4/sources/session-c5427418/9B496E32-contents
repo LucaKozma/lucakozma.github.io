@@ -1,0 +1,39 @@
+---
+title: "2025/2026"
+output_dir: "docs"  
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+---
+<style>
+  .responsive-img {
+    float: right;
+    margin: 15px 15px 15px 15px;
+  }
+
+  @media (max-width: 768px) {
+    .responsive-img {
+      float: none;
+      display: block;
+      margin: 0 auto 15px auto;
+    }
+  }
+</style>
+
+<img src="UWSTea2.jpg" width="250" class="responsive-img">
+
+<br>
+
+# Location
+
+TBC
+
+# Date and time
+
+TBC
+
+# Reading list
+
+TBC

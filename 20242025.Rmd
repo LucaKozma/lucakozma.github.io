@@ -1,0 +1,70 @@
+---
+title: "2024/2025"
+output_dir: "docs"  
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: yeti
+---
+<style>
+  .responsive-img {
+    float: right;
+    margin: 15px 15px 15px 15px;
+  }
+
+  @media (max-width: 768px) {
+    .responsive-img {
+      float: none;
+      display: block;
+      margin: 0 auto 15px auto;
+    }
+  }
+</style>
+
+<img src="UWSTea2.jpg" width="250" class="responsive-img">
+
+<br>
+
+# Location
+
+**D137/139, Paisley Campus** or **online.** Click here to join: [<img src="teams.svg" alt="Join us here"  height="32"/>](https://teams.microsoft.com/l/team/19%3AVgmCyqnnetwBheHqzKxSGVjojm8Wf2At8_X9DBkk2UM1%40thread.tacv2/conversations?groupId=4fee47e7-661e-4b52-900c-11325d0ea3ac&tenantId=f89944b7-4a4e-4ea7-9156-3299f3411647)
+
+# Date and time
+
+- 3-4pm, Wednesday, **October 9, 2024**
+
+- 3-4pm, Wednesday, **November 13th, 2024**
+
+- 3-4pm, Wednesday, **January 8th, 2025**
+
+- 3-4pm, Wednesday, **February 12th, 2025**
+
+- 3-4pm, Wednesday, **March 12th, 2025**
+
+- 3-4pm, Wednesday, **April 16th, 2025**
+
+- 3-4pm, Wednesday, **May 14th, 2025**
+
+- 3-4pm, Wednesday, **Jun 11th, 2025**
+ 
+<br> 
+
+# Reading list
+
+<style scoped>
+table {
+  font-size: 14px;
+}
+</style>
+
+|Date            |Topic                            |                                                          Paper|
+|:---------------|:--------------------------------|--------------------------------------------------------------:|
+|   **October 9**|                                 Replication crisis|Albanese, F., Bloem, B. R., & Kalia, L. V. (2023). Addressing the "Replication Crisis" in the Field of Parkinson's Disease. Journal of Parkinson's disease, 13(6), 849-850. https://doi.org/10.3233/JPD-239002
+| **November 13**|                                 Registered reports|Chambers, C. (2019). The Registered Reports Revolution Lessons in Cultural Reform, Significance, 16(4), 23-27, https://doi.org/10.1111/j.1740-9713.2019.01299.x
+|   **January 8**|                                 Open code and data|Easterbrook, S. (2014). Open code for open science?. Nature Geoscience, 7, 779-781. https://doi.org/10.1038/ngeo2283 <br> <br> Gewin V. (2016). Data sharing: An open mind on open data. Nature, 529(7584), 117-119. https://doi.org/10.1038/nj7584-117a
+| **February 12**|                                   Open peer review|Ross-Hellauer, T., Bouter, L. M., & Horbach, S. P. J. M. (2023). Open peer review urgently requires evidence: A call to action. PLoS biology, 21(10), e3002255. https://doi.org/10.1371/journal.pbio.3002255
+|    **March 12**|                                      Slow science | Frith U. (2020). Fast Lane to Slow Science. Trends in cognitive sciences, 24(1), 1-2. https://doi.org/10.1016/j.tics.2019.10.007 <br> <br>  Leite, L., & Diele-Viegas, L. M. (2021). Juggling slow and fast science. Nature human behaviour, 5(4), 409. https://doi.org/10.1038/s41562-021-01080-1
+|    **April 16**|                      For-profic science publishing|Walter, P., & Mullins, D. (2019). From symbiont to parasite: the evolution of for-profit science publishing. Molecular biology of the cell, 30(20), 2537-2542. https://doi.org/10.1091/mbc.E19-03-0147
+|      **May 14**|Trying to safeguard against fraudulent participants|Pellicano, E., Adams, D., Crane, L., Hollingue, C., Allen, C., Almendinger, K., Botha, M., Haar, T., Kapp, S. K., & Wheeley, E. (2023). Letter to the Editor: A possible threat to data integrity for online qualitative autism research. Autism : the international journal of research and practice, 13623613231174543. Advance online publication. https://doi.org/10.1177/13623613231174543
+|      **June 11**|                       The 'bropen' science culture|Whitaker, K., & Guest, O. (2020). #bropenscience is broken science. The Psychologist. 33. 34-37. https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science

@@ -9,7 +9,9 @@ navbar:
     - text: "Home"
       href: index.html
       icon: fa-house
-    - text: "About"
+    - text: "Experience"
       href: CV.html
+    - text: "Publications"
+      href: Pubs.html
     - text: "UWS ReproducibiliTea"
       href: https://lucakozma.github.io/UWS_ReproT/

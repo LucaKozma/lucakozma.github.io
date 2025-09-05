@@ -28,12 +28,50 @@ output:
 
 # Location
 
-TBC
+**Paisley Campus, room** *TBC* or **online.** Click here to join: [<img src="teams.svg" alt="Join us here"  height="32"/>](https://teams.microsoft.com/l/team/19%3AVgmCyqnnetwBheHqzKxSGVjojm8Wf2At8_X9DBkk2UM1%40thread.tacv2/conversations?groupId=4fee47e7-661e-4b52-900c-11325d0ea3ac&tenantId=f89944b7-4a4e-4ea7-9156-3299f3411647)
+
+<br> 
 
 # Date and time
 
-TBC
+- 3-4pm, Wednesday, **22 October 2025**
+
+- 3-4pm, Wednesday, **12 November 2025**
+
+- 3-4pm, Wednesday, **03 December 2025**
+
+- 3-4pm, Wednesday, **21 January 2026**
+
+- 3-4pm, Wednesday, **04 February 2026**
+
+- 3-4pm, Wednesday, **25 February 2026**
+
+- 3-4pm, Wednesday, **18 March 2026**
+
+- 3-4pm, Wednesday, **29 April 2026**
+
+- 3-4pm, Wednesday, **20 May 2026**
+
+- 3-4pm, Wednesday, **10 June 2026**
+
+<br>
 
 # Reading list
 
-TBC
+<style scoped>
+table {
+  font-size: 14px;
+}
+</style>
+
+|Date            |     |                                                                                                Paper|
+|:---------------|:----|----------------------------------------------------------------------------------------------------:|
+|  **October 22**|     |Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., O’hara, C. C., ... & Halpern, B. S. (2017). Our path to better science in less time using open data science tools. *Nature Ecology & Evolution*, *1*(6), 0160. https://doi.org/10.1038/s41559-017-0160.
+| **November 12**|     |
+|  **December 3**|     |
+|  **January 21**|     |
+| **February 25**|     |
+|    **March 18**|     |
+|    **April 29**|     |
+|      **May 20**|     |
+|     **June 10**|     |Kohrs, F. E., Auer, S., Bannach-Brown, A., Fiedler, S., Haven, T. L., Heise, V., ... & Weissgerber, T. L. (2023). Eleven strategies for making reproducible research and open science training the norm at research institutions. *Elife*, 12, e89736. https://doi.org/10.7554/eLife.89736.

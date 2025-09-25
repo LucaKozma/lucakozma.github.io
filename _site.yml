@@ -14,5 +14,5 @@ navbar:
     - text: "Publications"
       href: Pubs.html
     - text: "UWS ReproducibiliTea"
-      href: https://lucakozma.github.io/UWS_ReproT/
+      href: https://lucakozma.github.io/UWS_ReproT/index.html
       icon: fa-mug-hot

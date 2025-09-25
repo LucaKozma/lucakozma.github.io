@@ -1,11 +1,13 @@
 ---
 title: "Dr Luca Kozma"
-output_dir: "docs"  
+output_dir: docs
 output:
   html_document:
     toc: true
     toc_float: true
     theme: yeti
+  pdf_document:
+    toc: true
 ---
 
 <img style="float: right; padding: 15px;" src="1.jpg" width = "350">

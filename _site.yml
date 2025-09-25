@@ -8,10 +8,11 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-      icon: fa-house
+      icon: fa-user
     - text: "Experience"
       href: CV.html
     - text: "Publications"
       href: Pubs.html
     - text: "UWS ReproducibiliTea"
       href: https://lucakozma.github.io/UWS_ReproT/
+      icon: fa-mug-hot

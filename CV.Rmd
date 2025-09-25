@@ -28,6 +28,8 @@ output:
     
     + Introduction to Psychology B - L1
     
+    + Applying Psychology - L1
+    
     + Essential Skills for Psychologists - L2
     
     + Quantitative Research Skills in Psychology - L2
@@ -38,17 +40,17 @@ output:
     
     + Applying Psychology Methods - L3
     
-    + Psychology Research Dissertation supervision - L4
-    
     + Work-related Learning project lead - L4
+    
+    + Psychology Research Dissertation supervision - L4
 
 -   Postgraduate level:
 
-    - Psychology Research Dissertation supervision - MSc Conversion course
+    + Psychology Research Dissertation supervision - MSc Conversion course
     
-    - Cognitive Psychology - MSc Conversion course
+    + Cognitive Psychology - MSc Conversion course
     
-    - Biological Psychology - MSc Conversion course
+    + Biological Psychology - MSc Conversion course
 
 <br>
 
@@ -72,13 +74,7 @@ output:
     
 <br>
 
-#### **Researcher** \| Institute of Psychology, University of Pecs, Hungary
-
-***October 2020 - June 2021***
-
-<br>
-
-#### **Research Assistant** \| Institute of Psychology, University of Pecs, Hungary
+#### **Associate Researcher** \| Institute of Psychology, University of Pecs, Hungary
 
 ***October 2018 - September 2020***
 
